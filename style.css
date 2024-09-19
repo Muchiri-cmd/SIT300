@@ -1,0 +1,137 @@
+*{
+  border:0;
+  box-sizing: 0;
+  margin:0;
+  padding:0;
+  font-size:16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+h2{
+  font-size:1.5em;
+}
+
+body{
+  max-width: 80%;
+  margin:auto;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding:2em;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.hero{
+  height:90vh;
+  background-image: url('./assets/sara-dubler-Koei_7yYtIo-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content>h1{
+  color:white;
+  font-weight: 600;
+  font-size: 4em;
+}
+
+.content{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.explore{
+  margin-top: 1em;
+  border-radius: 5em;
+  padding:.5em;
+  background: none;
+  border:2px solid white;
+  color:white;
+  font-weight:bolder;
+  font-size: 2em;
+  width:10em;
+  &:hover{
+    background-color:whitesmoke;
+    cursor: pointer;
+    color:black;
+  }
+}
+
+.booking{
+  position:absolute;
+  bottom:30px;
+  /* right:350px; */
+  margin-left:180px;
+}
+.booking>input{
+  padding: .7em;
+  border-radius: .5em;
+}
+.availability{
+  padding:.7em;
+  background-color:aquamarine;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+section{
+  margin-bottom:5em;
+}
+.services{
+  height:50vh;
+  display: flex;
+ 
+}
+.service{
+  padding:1em;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service>img{
+  height:15em;
+  width:25em;
+  border-radius: .5em;
+}
+.service-info{
+  margin-top:1em;
+  p{
+    margin-top:1em;
+  }
+}
+
+.add-ons{
+  display: flex;
+  flex-direction: row;
+}
+.add-on{
+  padding:1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.addon-para{
+  margin-top:1.5em;
+}
+.icon span i {
+  color: red;
+  font-size: 40px; 
+}
+.icon span {
+  width: 40px;
+  height: 20px;
+  display: inline-block; 
+  line-height: 20px; 
+}
