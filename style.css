@@ -50,7 +50,7 @@ ul{
   align-items: center;
 }
 
-.explore{
+.explore {
   margin-top: 1em;
   border-radius: 5em;
   padding:.5em;
@@ -64,6 +64,11 @@ ul{
     background-color:whitesmoke;
     cursor: pointer;
     color:black;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
   }
 }
 
