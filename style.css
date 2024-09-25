@@ -165,3 +165,64 @@ section{
   display: inline-block; 
   line-height: 20px; 
 }
+
+.video-room-section {
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  position:relative;
+
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.video-room-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.video-card {
+  position: relative;
+  width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.video-card:nth-child(1) {
+  top: 20;
+  left: 0%;
+  z-index: 10;
+}
+
+.video-card:nth-child(2) {
+  bottom: 100px; 
+  left: 2%;
+  z-index: 5;
+}
+
+.video-card:hover {
+  z-index: 20;
+  transform: scale(1.05);
+}
+
+.video-card:hover iframe {
+  transform: scale(1.05);
+}
+
+.video-card iframe {
+  width: 650px;
+  border: none;
+  height:300px;
+}
