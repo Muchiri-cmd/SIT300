@@ -1,0 +1,113 @@
+/* Apply general styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   /* Center the form in the middle of the page */
+   form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   
+   /* Style labels */
+   label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+   }
+   
+   /* Style text inputs and textareas */
+   input[type="text"],
+   input[type="password"],
+   textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   }
+   
+   /* Style checkbox and radio inputs */
+   input[type="checkbox"],
+   input[type="radio"] {
+    margin-right: 5px;
+   }
+   
+   /* Style submit and reset buttons */
+   input[type="submit"],
+   input[type="reset"],
+   button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+   }
+   
+   input[type="submit"]:hover,
+   input[type="reset"]:hover,
+   button:hover {
+    background-color: #45a049;
+   }
+   
+   /* Style select dropdown */
+   select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   }
+   
+   /* Style fieldset and legend */
+   fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+   }
+   
+   legend {
+    font-weight: bold;
+    color: #333;
+   }
+   
+   /* Style listbox */
+   select[multiple] {
+    height: auto;
+   }
+   
+   /* Style date, time, datetime-local, month, week, email inputs */
+   input[type="date"],
+   input[type="time"],
+   input[type="datetime-local"],
+   input[type="month"],
+   input[type="week"],
+   input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   }
+   
+   /* Style error message for required fields */
+   input:invalid,
+   textarea:invalid,
+   select:invalid {
+    border: 1px solid red;
+   }
