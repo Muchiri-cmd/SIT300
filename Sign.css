@@ -7,15 +7,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size:2em;
    }
-   
-   /* Center the form in the middle of the page */
    form {
-    max-width: 600px;
-    margin: 0 auto;
+    margin:auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width:800px;
    }
    
    /* Style labels */
@@ -35,6 +34,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    font-size:1em;
    }
    
    /* Style checkbox and radio inputs */
@@ -54,6 +54,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    font-size:1em;
    }
    
    input[type="submit"]:hover,
