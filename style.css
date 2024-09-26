@@ -40,8 +40,9 @@ nav {
   margin-left:1em;
   &:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.15);
     transition: transform 0.4s ease-in-out;
+    color: crimson;
   }
 }
 
