@@ -11,10 +11,12 @@
 li{
   list-style-type: none;
 }
+
 a{
   text-decoration: none;
   color:inherit;
 }
+
 h2{
   font-size:1.5em;
 }
@@ -33,6 +35,7 @@ nav {
   justify-content: space-around;
   padding:.5em
 }
+
 .nav-links>li{
   margin-left:1em;
   &:hover{
@@ -41,15 +44,16 @@ nav {
     transition: transform 0.4s ease-in-out;
   }
 }
+
 .nav-spacer{
   height:60px;
 }
+
 ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding:.8em;
- 
 }
 
 .hero{
@@ -62,6 +66,7 @@ ul{
   justify-content: center;
   align-items: center;
 }
+
 .content>h1{
   color:white;
   font-weight: 600;
@@ -101,10 +106,12 @@ ul{
   /* right:350px; */
   margin-left:180px;
 }
+
 .booking>input{
   padding: .7em;
   border-radius: .5em;
 }
+
 .availability{
   padding:.7em;
   background-color:aquamarine;
@@ -119,11 +126,12 @@ section{
   max-width: 90%;
   margin:5em auto;
 }
+
 .services{
   height:50vh;
   display: flex;
- 
 }
+
 .service{
   padding:1em;
   display:flex;
@@ -146,6 +154,7 @@ section{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .add-on{
   padding:1em;
   display: flex;
@@ -158,13 +167,16 @@ section{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   } 
 }
+
 .addon-para{
   margin-top:1.5em;
 }
+
 .icon span i {
   color: red;
   font-size: 40px; 
 }
+
 .icon span {
   width: 40px;
   height: 20px;
@@ -242,12 +254,14 @@ section{
     font-size: 2em;
   }
 }
+
 .testimonials{
   display: flex;
   justify-content: space-between;
   gap:2em;
   padding:2em;
 }
+
 .testimonial {
   flex-basis: 48%;
   background-color: #fff;
@@ -297,4 +311,73 @@ section{
   margin: 0;
   font-size: 14px;
   color: #666;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.map iframe {
+  border: 0;
+  border-radius: 8px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons h3 {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter p {
+  margin-bottom: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.footer p {
+  color: black;
+  
 }
