@@ -29,7 +29,7 @@
 </head>
 <body>
   <nav>
-    <img src="assets/images.png"style="width:10%; height:50px;" alt="logo-img">
+    <img src="assets/images.png"style="width:5%; height:50px;" alt="logo-img">
     <ul class="nav-links">
       <li><a href="index.php">Home</a></li>
       <li><a href="rooms.php">Rooms</a></li>
