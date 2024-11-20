@@ -21,6 +21,7 @@ body {
   }
   
   form input[type="text"],
+  form input[type="email"],
   form input[type="password"] {
     width: calc(100% - 20px); /* Full width with some padding */
     padding: 10px;
