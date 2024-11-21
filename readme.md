@@ -43,7 +43,7 @@ The SIT300 Group Project is a collaborative effort to develop a responsive and f
 
 ## Technologies Used
 
-- **Backend**: PHP, Hack
+- **Backend**: PHP
 - **Frontend**: HTML, CSS
 - **Database**: MySQL
 - **Version Control**: Git and GitHub
