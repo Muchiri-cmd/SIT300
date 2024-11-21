@@ -38,6 +38,7 @@
                         session_start();
                         $_SESSION['username'] = $user['username'];
                         $_SESSION['welcome_message'] = "Welcome, " . $user['username'] . "!";
+                        $_SESSION['user_id'] = $user['id'];
                         
                         header('Location: index.php');
                         
