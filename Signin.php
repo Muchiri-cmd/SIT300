@@ -40,6 +40,7 @@
                         $_SESSION['welcome_message'] = "Welcome, " . $user['username'] . "!";
                         $_SESSION['user_id'] = $user['id'];
                         
+                        setCookie('user_name', $user['username'], time() + 3600 * 24 * 30);
                         header('Location: index.php');
                         
                         die();

@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap:.5em; 
     padding: 20px;
     max-width:90%;
@@ -8,7 +8,7 @@
 }
 .room {
     border: 2px solid red;
-    width: 420px;
+    width: 450px;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -28,7 +28,7 @@
 
 .room > img {
     height: 250px;
-    width: 420px;
+    width: 450px;
     display: block;
 }
 
